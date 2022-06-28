@@ -1,0 +1,142 @@
+{
+    "introduction": {
+        "header": "Hi,",
+        "sub-header": "I am Sankalp Pol",
+        "sub-context": "Let me brief you about myself..."
+    },
+    "about-me": {
+        "description": "I love machines. I've loved working on wierd things. I am one of those who opens up every mechanical / computer device just to see how it works, and then sometimes fails to join it back. Not a single abandoned smart phone has ever survived from me, at least in my home. Other than that, I love building things from scratch. I've worked with Start-Ups. I love to believe in people, and their ideas. I've used the word 'love' so many times since I do everything by my heart. Now, before that makes me emotional, let's continue..."
+    },
+    "work-experience":[
+        {
+            "company": "Crypso",
+            "designation": "Software Developer",
+            "description": "Crypso is a crypto based social media application that enabled users to have the luxury of a free social revolving around Crypto and also trade through the same. Users could create signals for coin prices indicating their followers about the ups and downs of the same.",
+            "city": "Bangalore",
+            "joining-date": "1633046400",
+            "ending-date": null
+        },
+        {
+            "company": "Technodds LLP",
+            "designation": "Software Developer",
+            "description": "Technodds is a Student-Faculty startup at Aurangabad. Technodds was started in COVID period to equip the people with tools to fight COVID19. During my period, I worked on javascript technologies and application development.",
+            "city": "Aurangabad",
+            "joining-date": "1593561600",
+            "ending-date": "1633046400"
+        },
+        {
+            "company": "3I Infotech",
+            "designation": "-",
+            "description": "I joined as a Data-Entry Operator, and then I was promoted to Quality Checking Process. This was a non-technical work. I was involved into multiple processes since I learnt a thing about time utilisation.",
+            "city": "Mumbai",
+            "joining-date": "1495843200",
+            "ending-date": "1514764800"
+        }
+    ],
+    "education": [
+        {
+            "name": "Maharashtra Institute of Technology",
+            "grade": "Bachelor of Technology",
+            "grade-short": "B.Tech",
+            "city": "Aurangabad",
+            "specialization": "Computer Science & Engineering",
+            "description": "In my years at MIT, I did some freelancing work, some internships, some projects on my own. I filed two patents one on which is a '3D Printed Robotic Fish' for under water surveillance. I spent most of my time in learning new skills, strengthening competitive programming, etc."
+        },
+        {
+            "name": "N. G. Acharya & D. K. Marathe College",
+            "grade": "12th",
+            "grade-short": "XII",
+            "city": "Mumbai",
+            "specialization": null,
+            "description": "Completed my higher secondary education. I started understanding how things really work in software development, got introduced to words like 'Architecture'."
+        },
+        {
+            "name": "Changu Kana Thakur Vidyalaya",
+            "grade": "10th Standard",
+            "grade-short": "X",
+            "city": "Mumbai",
+            "specialization": null,
+            "description": "Completed my SSC education. By then, I had learnt basics of Java, C++, Static web development, and mastered MS Powerpoint"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Arth",
+            "context": "Stock Recommendation System",
+            "tech-stack": "MERN",
+            "description": "The project involved web scraping for various sources which could give insights about recommendations for stocks. using 3rd party services such as Alphavantage, aggregating data, and showing a compiled list of recommendations to users. Recommendations were created using a formula that considered all stock market factors"
+        },
+        {
+            "title": "BTS Cloud Kitchen",
+            "context": "Cloud Kitchen Management",
+            "tech-stack": "MERN",
+            "description": "The project was a cloud kitchen catalogue and inventory management application. This involved showing dishes, creating cart, payment gateways, etc. The project has a user application to order food, and an admin application to manage the content."
+        },
+        {
+            "title": "Crypso",
+            "context": "Crypto Social Media Application",
+            "tech-stack": "Native Android",
+            "description": "The project was a Crypto based social media application that allowed users to trade on Cryptocurrency as well as build social communities over coins, create signals for trading, etc."
+        },
+        {
+            "title": "E-Invite Scan",
+            "context": "Invitation Scanning Application",
+            "tech-stack": "Native Android",
+            "description": "The project was a third party project for National Defence Academy, Pune. The project involved scanning QR code invitations through camera and validating the invites."
+        },
+        {
+            "title": "GoQue",
+            "context": "Real Time Queue Management",
+            "tech-stack": "Native Android / Node JS",
+            "description": "GoQue is a real time queue management application. This app gave users the luxury of joining queues at hospitals / shopping centres / temples or anywhere from home just by clicking a button."
+        },
+        {
+            "title": "Friils",
+            "context": "Anonymous Social Media",
+            "tech-stack": "Native Android / Node JS",
+            "description": "Friils was an anonymous social media application on which you can do anything. The main feature of it was 'flushing' by which users identity changes every unit time due to which, spammers could not target a particular user even through different logins."
+        },
+        {
+            "title": "Jitesh's Chemiezest",
+            "context": "Online Tutoring Website",
+            "tech-stack": null,
+            "description": "This is a student management portal for a small online tutoring company. Students could purchase courses through the website, find class notifications, schedule, and many more..."
+        },
+        {
+            "title": "Personal Websites",
+            "context": "Portfolio / Brand websites",
+            "tech-stack": null,
+            "description": "Worked on some personal websites required by micro companies."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Kotlin",
+            "score": 4
+        },
+        {
+            "name": "Node JS",
+            "score": 5
+        },
+        {
+            "name": "React JS",
+            "score": 4
+        },
+        {
+            "name": "Next JS",
+            "score": 4
+        },
+        {
+            "name": "Mongo DB",
+            "score": 3
+        },
+        {
+            "name": "MySQL",
+            "score": 4
+        },
+        {
+            "name": "GCP / Firebase",
+            "score": 3
+        }
+    ]
+}
