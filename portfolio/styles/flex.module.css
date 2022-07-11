@@ -6,6 +6,9 @@
 .justify_center{
     justify-content: center;
 }
+.vertically_middle{
+    vertical-align: middle;
+}
 .align_center{
     align-items: center;
 }
