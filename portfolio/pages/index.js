@@ -1,19 +1,40 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import React from 'react'
+import {Row, Col} from 'react-bootstrap'
 import DefaultWrapper from '../components/common/wrappers/DefaultWrapper'
+import HeavyPaddedContent from '../components/common/content/HeavyPaddedContent'
 import homeCss from "../styles/home.module.css"
+import flexCss from "../styles/flex.module.css"
+import fontsCss from "../styles/fonts.module.css"
+import data from "../constants/data.json"
 class Home extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      introduction: {
+        header: "",
+        subHeader: "",
+        subContext: ""
+      }
+    }
+  }
+  componentDidMount() {
+    this.startTypewriter()
+  }
   render(){
     return <DefaultWrapper>
       <DefaultWrapper>
-        <h2>Introduction</h2>
-        <p>
-          My name is Sankalp Pol, I am from Navi Mumbai, currently working at Crypso.
-          In past I have worked with Technodds LLP as a software developer.
-          I have also worked as a freelancer with DAccess Software pune, Tophat Softwares Indore, and Guntier in new delhi.
-          
-        </p>
+        <div className={homeCss.banner_container}>
+          <HeavyPaddedContent>
+            <div className={`${flexCss.container} ${flexCss.align_center} ${flexCss.gap_24px}`}>
+              <img className={homeCss.banner_profile_image} src={"/home_banner_asset_1.jpg"}/>
+              <div>
+                <p className={`${homeCss.banner_text_content} ${fontsCss.header}`}>{this.state.introduction.header}</p>
+                <p className={`${homeCss.banner_text_content} ${fontsCss.content}`}>{this.state.introduction.subHeader}</p>
+                <p className={`${homeCss.banner_text_content} ${fontsCss.content}`}>{this.state.introduction.subContext}</p>
+              </div>
+            </div>
+          </HeavyPaddedContent>
+        </div>
       </DefaultWrapper>
       <DefaultWrapper>
         About
@@ -34,6 +55,33 @@ class Home extends React.Component{
         Footer
       </DefaultWrapper>
     </DefaultWrapper>
+  }
+  startTypewriter(){
+    if(this.state.introduction.header.length < data.introduction.header.length){
+      const newState = {...this.state}
+      newState.introduction.header += data.introduction.header.charAt(this.state.introduction.header.length)
+      this.setState(newState, () => {
+        setTimeout(() => { 
+          this.startTypewriter()
+        }, 75)
+      })
+    }else if(this.state.introduction.subHeader.length < data.introduction["sub-header"].length){
+      const newState = {...this.state}
+      newState.introduction.subHeader += data.introduction["sub-header"].charAt(this.state.introduction.subHeader.length)
+      this.setState(newState, () => {
+        setTimeout(() => { 
+          this.startTypewriter()
+        }, 75)
+      })
+    }else if(this.state.introduction.subContext.length < data.introduction["sub-context"].length){
+      const newState = {...this.state}
+      newState.introduction.subContext += data.introduction["sub-context"].charAt(this.state.introduction.subContext.length)
+      this.setState(newState, () => {
+        setTimeout(() => { 
+          this.startTypewriter()
+        }, 75)
+      })
+    }
   }
 }
 

@@ -1,0 +1,21 @@
+.banner_container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: url('');
+    margin: 0px auto;
+}
+.banner_text_content{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: white;
+}
+.banner_profile_image{
+    position: relative;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 50%;
+}
