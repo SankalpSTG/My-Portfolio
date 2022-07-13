@@ -4,12 +4,14 @@
     width: 100%;
     background: url('../public/home_banner_asset_3.jpg');
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px auto;
-}.banner_container{
+}
+.banner_container{
     position: relative;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: rgba(0, 0, 0, 0.1);
     background-size: cover;
     margin: 0px auto;
@@ -30,4 +32,47 @@
     width: 240px;
     max-width: 100%;
     border-radius: 50%;
+}
+.about_container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.about_content{
+    position: relative;
+    text-align: center;
+    width: 720px;
+    margin: 0px auto;
+    padding: 60px 30px 60px 30px;
+    color: #FFFFFF;
+    background: rgba(10, 10, 10, 0.9);
+}
+
+@media screen and (max-width: 1440px){
+    
+}
+@media screen and (max-width: 1280px){
+    
+}
+@media screen and (max-width: 1200px){
+    
+}
+@media screen and (max-width: 1080px){
+    
+}
+@media screen and (max-width: 992px){
+    
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 576px){
+    
+}
+@media screen and (max-width: 411px){
+    
 }
