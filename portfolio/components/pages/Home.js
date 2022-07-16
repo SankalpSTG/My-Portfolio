@@ -7,6 +7,7 @@ import flexCss from "../../styles/flex.module.css"
 import fontsCss from "../../styles/fonts.module.css"
 import data from "../../constants/data.json"
 import constants from "../../constants/constants.js"
+import { VerticalSpacer } from '../common/content/Spacer'
 class Home extends React.Component{
   constructor(props){
     super(props)
@@ -23,7 +24,6 @@ class Home extends React.Component{
   }
   render(){
     return <DefaultWrapper>
-      
       <DefaultWrapper>
         <div className={`${homeCss.banner_container_background}`}>
           <div className={`${flexCss.container} ${flexCss.align_center} ${flexCss.vertically_middle} ${homeCss.banner_container}`}>
@@ -42,13 +42,34 @@ class Home extends React.Component{
       <DefaultWrapper>
         <div className={homeCss.about_container}>
           <div className={homeCss.about_content}>
-            <div className={homeCss.about_header}>About</div>
+            <div className={homeCss.about_header}>ABOUT</div>
             <div className={homeCss.about_description}>{data['about-me'].description}</div>
           </div>
         </div>
       </DefaultWrapper>
       <DefaultWrapper>
-        Experience
+        <div className={homeCss.experience_container}>
+          {/* <img className={homeCss.experience_top_fragment} src={"/background_fragment_1.png"}/> */}
+          <div className={homeCss.experience_content}>
+          <VerticalSpacer height={90}/>
+            <div className={homeCss.experience_header}>Work Experience</div>
+            <VerticalSpacer height={90}/>
+            <div>
+              <div className={homeCss.experience_item}>
+                <div className={homeCss.experience_item_company}>Crypso</div>
+                <div className={homeCss.experience_item_role}>Android Developer</div>
+                <div className={homeCss.experience_item_duration}>Time I spent there</div>
+                <div className={homeCss.experience_item_brief}>Some shit that I did there</div>
+              </div>
+              <div className={homeCss.experience_item}>
+                <div className={homeCss.experience_item_company}>Crypso</div>
+                <div className={homeCss.experience_item_role}>Android Developer</div>
+                <div className={homeCss.experience_item_duration}>Time I spent there</div>
+                <div className={homeCss.experience_item_brief}>Some shit that I did there</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </DefaultWrapper>
       <DefaultWrapper>
         Micro Projects
