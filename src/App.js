@@ -29,7 +29,7 @@ function App() {
           <div className="tw-text-center tw-text-white">
             <div className="tw-text-[24px]"><b>ABOUT ME</b></div>
             <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">
-              Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development (Kotlin). Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
+              Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development (Kotlin). Familiar with GCP services, Git, CI/CD, Docker, NGINX etc. Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
               Currently interested in Full Stack Development roles. 
             </div>
           </div>
@@ -121,7 +121,7 @@ function App() {
           <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-4 tw-max-w-[840px] tw-mx-auto tw-my-10">
             <div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
-                <div className="tw-text-lg">My Portfolio (This Website) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div className="tw-text-lg">My Portfolio (This Website) <a href="https://github.com/SankalpSTG/My-Portfolio" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
                 <div>
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Created using React JS</li>
@@ -133,7 +133,7 @@ function App() {
                 </div>
               </div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
-                <div className="tw-text-lg">Global Accounts (Zamp) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div className="tw-text-lg">Global Accounts (Zamp)</div>
                 <div>
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Global Accounts was a Global Banking Platform for Businesses.</li>
@@ -144,7 +144,7 @@ function App() {
                 </div>
               </div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
-                <div className="tw-text-lg">Crypso Landing Page (Crypso) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div className="tw-text-lg">Crypso Landing Page (Crypso) <a href="https://crypso.club/" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
                 <div>
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Created using React JS</li>
@@ -155,7 +155,7 @@ function App() {
             </div>
             <div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
-                <div className="tw-text-lg">Sirius (Zamp) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div className="tw-text-lg">Sirius (Zamp) <a href="https://dashboard.zamp.finance/" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
                 <div>
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Sirius was a B2B product similar to Global Accounts</li>
@@ -166,7 +166,7 @@ function App() {
                 </div>
               </div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
-              <div className="tw-text-lg">Crypso (Crypso) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+              <div className="tw-text-lg">Crypso (Crypso) <a href="https://play.google.com/store/apps/details?id=club.crypso.app" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
                 <div>
                   <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Crypso is an Android App, basically a Social Media for Crypto Enthusiasts</li>
