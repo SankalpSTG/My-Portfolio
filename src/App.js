@@ -31,6 +31,69 @@ function App() {
             <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development(Kotlin).</div>
           </div>
         </div>
+        <div className="tw-min-h-[100vh] tw-bg-[#18181B] tw-text-white tw-text-center tw-py-10 tw-px-5">
+          <div className="tw-text-[24px]"><b>EXPERIENCE</b></div>
+          <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
+            <div className="tw-flex tw-justify-between tw-my-5">
+              <div>
+                <div className="tw-text-base"><i>Software Developer</i></div>
+                <div className="tw-text-[24px]"><b>Zamp</b></div>
+              </div>
+              <div>
+                <div className="">July 22 - Present</div>
+                <div className="">Gurgaon, HR</div>
+              </div>
+            </div>
+            <div>
+              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                <li>Built global payments solutions (fiat and crypto). Worked on Golang, React, Next JS, Typescript</li>
+                <li>Worked close to Amit Jain, Founder @Zamp, Ex-Managing Director, Sequoia.</li>
+                <li>Took ownership of Investment Catalog end-to-end. Converted MVC into modular architectue. Lead front end developers to adopt a responsive code practice and responsive design language.</li>
+                <li>Worked on Global Accounts project. This involved many integrations at backend for transferring and accepting money across the globe. The basic definition of Global Accounts is ”Any money in, Any money out”.</li>
+                <li>Worked on Sirius platform. Sirius or yield project was a platform for SMEs which gives them luxury to park or invest their funds instead of keeping it in bank accounts so that they can earn some yield from it. The SMEs can invest their money into US Treasury bonds and few other options.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
+            <div className="tw-flex tw-justify-between tw-my-5">
+              <div>
+                <div className="tw-text-base"><i>Software Developer</i></div>
+                <div className="tw-text-[24px]"><b>Crypso</b></div>
+              </div>
+              <div>
+                <div>Sept 21 - June 22</div>
+                <div>Bangalore, KA</div>
+              </div>
+            </div>
+            <div>
+              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                <li>Worked on building a social media application for Crypto enthusiasts.</li>
+                <li>Payment Gateways, KYC services, XML and Jetpack Compose based hybrid layouts.</li>
+                <li>Web development in Next JS, Worked on SEO, Apps Script integration for quick data gathering.</li>
+                <li>Took ownership of the discover page (recommendation page), stories, user profile, user and KYB in Front end.</li>
+                <li>Worked on <a href="https://crypso.club" target="_blank" rel="noreferrer">Crypso.club</a> landing page for the application.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
+            <div className="tw-flex tw-justify-between tw-my-5">
+              <div>
+                <div className="tw-text-base"><i>Software Developer (Intern + Full Time)</i></div>
+                <div className="tw-text-[24px]"><b>Technodds LLP</b></div>
+              </div>
+              <div>
+                <div>Dec 2020 - Sept 2021</div>
+                <div>Aurangabad, MH</div>
+              </div>
+            </div>
+            <div>
+              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                <li>Worked on a GoQue, a Queue management app with Kotlin + MVVM on frontend and Node JS on backend.</li>
+                <li>Third party integrations, payment gateways, and sockets for events.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="tw-hidden tw-min-h-[100vh] tw-bg-[#18181B]">
           <div>Education</div>
           <div>
@@ -42,69 +105,6 @@ function App() {
           <div>Skills</div>
           <div>
             <div>GoLang, MERN, Next JS, Postgres, MongoDB, AWS / GCP essentials (DB and Deployment)</div>
-          </div>
-        </div>
-        <div className="tw-hidden">
-          <div>Experience</div>
-          <div>
-            <div>
-              <div>
-                <div>Software Developer</div>
-                <div>Zamp</div>
-              </div>
-              <div>
-                <div>July 22 - Present</div>
-                <div>Gurgaon, HR</div>
-              </div>
-            </div>
-            <div>
-              <ul>
-                <li>Built global payments solutions (fiat and crypto). Worked on Golang, React, Next JS, Typescript</li>
-                <li>Worked close to Amit Jain, Founder @Zamp, Ex-Managing Director, Sequoia.</li>
-                <li>Took ownership of Investment Catalog end-to-end. Converted MVC into modular architectue. Lead front end developers to adopt a responsive code practice and responsive design language.</li>
-                <li>Worked on Global Accounts project. This involved many integrations at backend for transferring and accepting money across the globe. The basic definition of Global Accounts is ”Any money in, Any money out”.</li>
-                <li>Worked on Sirius platform. Sirius or yield project was a platform for SMEs which gives them luxury to park or invest their funds instead of keeping it in bank accounts so that they can earn some yield from it. The SMEs can invest their money into US Treasury bonds and few other options.</li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>
-                <div>Software Developer</div>
-                <div>Crypso</div>
-              </div>
-              <div>
-                <div>Sept 21 - June 22</div>
-                <div>Bangalore, KA</div>
-              </div>
-            </div>
-            <div>
-              <ul>
-                <li>Worked on building a social media application for Crypto enthusiasts.</li>
-                <li>Payment Gateways, KYC services, XML and Jetpack Compose based hybrid layouts.</li>
-                <li>Web development in Next JS, Worked on SEO, Apps Script integration for quick data gathering.</li>
-                <li>Took ownership of the discover page (recommendation page), stories, user profile, user and KYB in Front end.</li>
-                <li>Worked on <a href="https://crypso.club" target="_blank" rel="noreferrer">Crypso.club</a> landing page for the application.</li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>
-                <div>Software Developer (Intern + Full Time)</div>
-                <div>Technodds LLP</div>
-              </div>
-              <div>
-                <div>Dec 2020 - Sept 2021</div>
-                <div>Aurangabad, MH</div>
-              </div>
-            </div>
-            <div>
-              <ul>
-                <li>Worked on a GoQue, a Queue management app with Kotlin + MVVM on frontend and Node JS on backend.</li>
-                <li>Third party integrations, payment gateways, and sockets for events.</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
