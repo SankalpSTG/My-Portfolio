@@ -1,7 +1,7 @@
 import { faArrowUpRightFromSquare, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css"
-import { GithubIcon, LinkedinIcon, SankalpPol1Image } from "./constants/icons";
+import { GithubIcon, LinkedinIcon, SankalpPol1Image, SankalpPol2Image } from "./constants/icons";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="tw-flex tw-items-center tw-justify-center tw-p-5 tw-h-[100vh]"><img src={SankalpPol1Image} className="tw-rounded-full tw-w-full tw-max-w-[360px] tw-relative" style={{boxShadow: "0px 0px 3px #000000"}} alt="Sankalp Pol"/></div>
+            <div className="tw-flex tw-items-center tw-justify-center tw-p-5 tw-h-[100vh]"><img src={SankalpPol2Image} className="tw-rounded-full tw-w-full tw-max-w-[360px] tw-relative" style={{boxShadow: "0px 0px 3px #000000"}} alt="Sankalp Pol"/></div>
           </div>
         </div>
         <div className="tw-min-h-[100vh] tw-bg-[#171717] tw-p-5 tw-flex tw-items-center tw-justify-center">
