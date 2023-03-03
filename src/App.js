@@ -1,7 +1,7 @@
 import { faArrowUpRightFromSquare, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css"
-import { GithubIcon, LinkedinIcon, SankalpPol1Image, SankalpPol2Image } from "./constants/icons";
+import { GithubIcon, LinkedinIcon, SankalpPol2Image } from "./constants/icons";
 
 function App() {
   return (
