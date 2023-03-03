@@ -1,33 +1,43 @@
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css"
+import { GithubIcon, LinkedinIcon, SankalpPol1Image } from "./constants/icons";
 
 function App() {
   return (
     <div>
       <div className="">
         <div>
-          <div>
-            Sankalp Pol
+          <div className="tw-text-center tw-bg-[#18181B] tw-text-white tw-grid tw-grid-cols-1 lg:tw-grid-cols-2">
+            <div className="tw-flex tw-items-center tw-justify-center tw-h-[100vh]">
+              <div className="tw-text-left tw-px-10">
+                <p className="tw-text-[36px] tw-leading-none">I am</p>
+                <p className="tw-text-[48px]">Sankalp Pol</p>
+                <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-2 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faPhone}/> <span className="tw-pl-4">+91 996-726-8418</span></div>
+                <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-4 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faEnvelope}/> <span className="tw-pl-4">sankalppolk123@gmail.com</span></div>
+                <div className="tw-flex tw-gap-2 tw-mt-3">
+                  <img src={LinkedinIcon} alt="Linkedin" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/>
+                  <img src={GithubIcon} alt="Github" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/>
+                </div>
+              </div>
+            </div>
+            <div className="tw-flex tw-items-center tw-justify-center"><img src={SankalpPol1Image} className="tw-rounded-full tw-w-[360px] tw-relative" style={{boxShadow: "0px 0px 3px #000000"}} alt="Sankalp Pol"/></div>
           </div>
-          <div>+91 996-726-8418</div>
-          <div>sankalppolk123@gmail.com</div>
-          <a href='https://linkedin.com/in/sankalpstg' target='_blank' rel="noreferrer">
-            <div>https://linkedin.com/in/sankalpstg</div>
-          </a>
         </div>
-        <div>
+        <div className="tw-hidden">
           <div>Education</div>
           <div>
             <div>Bachelors in Computer Science, MIT Aurangabad</div>
             <div>Worked on weirdest projects across disciplines, from creating robots to creating software interfaces for people. Filed 2 patents, one of which was a Robotic Fish for underwater surveillance. SIH Finalist</div>
           </div>
         </div>
-        <div>
+        <div className="tw-hidden">
           <div>Skills</div>
           <div>
             <div>GoLang, MERN, Next JS, Postgres, MongoDB, AWS / GCP essentials (DB and Deployment)</div>
           </div>
         </div>
-        <div>
+        <div className="tw-hidden">
           <div>Experience</div>
           <div>
             <div>
