@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css"
 import { GithubIcon, LinkedinIcon, SankalpPol1Image } from "./constants/icons";
@@ -28,7 +28,10 @@ function App() {
         <div className="tw-min-h-[100vh] tw-bg-[#171717] tw-p-5 tw-flex tw-items-center tw-justify-center">
           <div className="tw-text-center tw-text-white">
             <div className="tw-text-[24px]"><b>ABOUT ME</b></div>
-            <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development(Kotlin).</div>
+            <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">
+              Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development (Kotlin). Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
+              Currently interested in Full Stack Development roles. 
+            </div>
           </div>
         </div>
         <div className="tw-min-h-[100vh] tw-bg-[#18181B] tw-text-white tw-text-center tw-py-10 tw-px-5">
@@ -78,6 +81,25 @@ function App() {
           <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
             <div className="tw-flex tw-justify-between tw-my-5">
               <div>
+                <div className="tw-text-base"><i>Backend Development TA</i></div>
+                <div className="tw-text-[24px]"><b>Relevel By Unacademy</b></div>
+              </div>
+              <div>
+                <div>Dec 2021 - Dec 2022</div>
+                <div>Remote, IN</div>
+              </div>
+            </div>
+            <div>
+              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                <li>Worked as a part-time Mentor and Backend Development Teaching Assistant </li>
+                <li>Taught learners of different backgrounds (students and working professionals) Node JS </li>
+                <li>Took 1:1 Sessions with learners to ensure they understand concepts of Backend Development along with DSA </li>
+              </ul>
+            </div>
+          </div>
+          <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
+            <div className="tw-flex tw-justify-between tw-my-5">
+              <div>
                 <div className="tw-text-base"><i>Software Developer (Intern + Full Time)</i></div>
                 <div className="tw-text-[24px]"><b>Technodds LLP</b></div>
               </div>
@@ -94,17 +116,108 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="tw-hidden tw-min-h-[100vh] tw-bg-[#18181B]">
-          <div>Education</div>
-          <div>
-            <div>Bachelors in Computer Science, MIT Aurangabad</div>
-            <div>Worked on weirdest projects across disciplines, from creating robots to creating software interfaces for people. Filed 2 patents, one of which was a Robotic Fish for underwater surveillance. SIH Finalist</div>
+        <div className="tw-min-h-[100vh] tw-bg-[#171717] tw-text-white tw-text-center tw-py-10 tw-px-5">
+          <div className="tw-text-[24px]"><b>PROJECTS</b></div>
+          <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-4 tw-max-w-[840px] tw-mx-auto tw-my-10">
+            <div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+                <div className="tw-text-lg">My Portfolio (This Website) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Created using React JS</li>
+                    <li>Employs Tailwind CSS for Inline Styling</li>
+                    <li>Employs Font Awesome icons for inline icons</li>
+                    <li>Deployed on Firebase hosting</li>
+                    <li>The basic purpose of this project was just to revise simple deployment automation with Github Actions and GCP.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+                <div className="tw-text-lg">Global Accounts (Zamp) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Global Accounts was a Global Banking Platform for Businesses.</li>
+                    <li>It went with the tag line - <em>"Any Money In, Any Money Out"</em></li>
+                    <li>Employs Golang at backend and Next JS at Front end</li>
+                    <li>While using Next JS Specifically doesn't serve any purpose for this project, initially some features of Next JS such as Server Side Rendering were being used.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+                <div className="tw-text-lg">Crypso Landing Page (Crypso) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Created using React JS</li>
+                    <li>Employs Bootstrap for Styling</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+                <div className="tw-text-lg">Sirius (Zamp) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Sirius was a B2B product similar to Global Accounts</li>
+                    <li>It gave Companies the luxury to invest their assets into U.S. Bonds and Treasuries to get maximum yield</li>
+                    <li>This product was relevant to the trend for U.S. investment options as during 2022-2023 the same were returning yield upto 5%.</li>
+                    <li>The tech stack was Golang + Next JS.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+              <div className="tw-text-lg">Crypso (Crypso) <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Crypso is an Android App, basically a Social Media for Crypto Enthusiasts</li>
+                    <li>Employs Kotlin + MVVM Architecture</li>
+                    <li>Developed using Jetpack Compose + XML based hybrid layouts.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="tw-hidden">
-          <div>Skills</div>
-          <div>
-            <div>GoLang, MERN, Next JS, Postgres, MongoDB, AWS / GCP essentials (DB and Deployment)</div>
+        <div className="tw-min-h-[100vh] tw-bg-[#171717] tw-p-5 tw-flex tw-items-center tw-justify-center">
+          <div className="tw-text-center tw-text-white">
+            <div className="tw-text-[24px]"><b>EDUCATION</b></div>
+            <div className="tw-max-w-[840px] tw-mx-auto tw-my-10 tw-text-left">
+              <div className="tw-my-5">
+                <div className="tw-text-lg"><b>MIT Aurangabad</b></div>
+                <div className="tw-text-base"><em>Bachelors in Computer Science &amp; Engg.</em></div>
+                <div>
+                  <ui style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>Worked on weirdest projects across disciplines, from creating robots to creating software interfaces for people. </li>
+                    <li>Filed 2 patents, one of which was a Robotic Fish for underwater surveillance. </li>
+                    <li>Smart India Hackathon Finalist. </li>
+                    <li>Learnt App and Web Development along with Embedded Systems</li>
+                    <li>Worked on IOT Based projects</li>
+                  </ui>
+                </div>
+              </div>
+              <div className="tw-my-5">
+                <div className="tw-text-lg"><b>N. G. Acharya &amp; D. K. Marathe College, Mumbai</b></div>
+                <div className="tw-text-base"><em>Higher Secondary School (+12)</em></div>
+              </div>
+              <div className="tw-my-5">
+                <div className="tw-text-lg"><b>C.K.T.V, Mumbai</b></div>
+                <div className="tw-text-base"><em>SSC (+10)</em></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="tw-min-h-[100vh] tw-bg-[#18181B] tw-p-5 tw-flex tw-items-center tw-justify-center">
+          <div className="tw-text-center tw-text-white">
+            <div className="tw-text-[20px] tw-w-full tw-max-w-[640px]">
+              Whatever I have learned, I learned from my seniors, my teachers, and the best engineering managers that I ever had, basically through people. I love what I do and hence it never feels tiring even after clock ticking midnight. Definitely, there's a lot to learn and I haven't really got a chance to prove myself in past 2 years of corporate experience, but I know the people I have worked with will always appreciate my work even behind me, and since I follow my passion, I can confidently say that I am good at it.
+            </div>
+          </div>
+        </div>
+        <div className="tw-min-h-[100vh] tw-bg-[#171717] tw-p-5 tw-flex tw-items-center tw-justify-center">
+          <div className="tw-text-center tw-text-white">
+            <div className="tw-text-[20px] tw-w-full tw-max-w-[640px]">
+              Thanks for scrolling till here...
+            </div>
           </div>
         </div>
       </div>
