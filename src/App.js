@@ -1,23 +1,96 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="">
+        <div>
+          <div>
+            Sankalp Pol
+          </div>
+          <div>+91 996-726-8418</div>
+          <div>sankalppolk123@gmail.com</div>
+          <a href='https://linkedin.com/in/sankalpstg' target='_blank' rel="noreferrer">
+            <div>https://linkedin.com/in/sankalpstg</div>
+          </a>
+        </div>
+        <div>
+          <div>Education</div>
+          <div>
+            <div>Bachelors in Computer Science, MIT Aurangabad</div>
+            <div>Worked on weirdest projects across disciplines, from creating robots to creating software interfaces for people. Filed 2 patents, one of which was a Robotic Fish for underwater surveillance. SIH Finalist</div>
+          </div>
+        </div>
+        <div>
+          <div>Skills</div>
+          <div>
+            <div>GoLang, MERN, Next JS, Postgres, MongoDB, AWS / GCP essentials (DB and Deployment)</div>
+          </div>
+        </div>
+        <div>
+          <div>Experience</div>
+          <div>
+            <div>
+              <div>
+                <div>Software Developer</div>
+                <div>Zamp</div>
+              </div>
+              <div>
+                <div>July 22 - Present</div>
+                <div>Gurgaon, HR</div>
+              </div>
+            </div>
+            <div>
+              <ul>
+                <li>Built global payments solutions (fiat and crypto). Worked on Golang, React, Next JS, Typescript</li>
+                <li>Worked close to Amit Jain, Founder @Zamp, Ex-Managing Director, Sequoia.</li>
+                <li>Took ownership of Investment Catalog end-to-end. Converted MVC into modular architectue. Lead front end developers to adopt a responsive code practice and responsive design language.</li>
+                <li>Worked on Global Accounts project. This involved many integrations at backend for transferring and accepting money across the globe. The basic definition of Global Accounts is ”Any money in, Any money out”.</li>
+                <li>Worked on Sirius platform. Sirius or yield project was a platform for SMEs which gives them luxury to park or invest their funds instead of keeping it in bank accounts so that they can earn some yield from it. The SMEs can invest their money into US Treasury bonds and few other options.</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div>Software Developer</div>
+                <div>Crypso</div>
+              </div>
+              <div>
+                <div>Sept 21 - June 22</div>
+                <div>Bangalore, KA</div>
+              </div>
+            </div>
+            <div>
+              <ul>
+                <li>Worked on building a social media application for Crypto enthusiasts.</li>
+                <li>Payment Gateways, KYC services, XML and Jetpack Compose based hybrid layouts.</li>
+                <li>Web development in Next JS, Worked on SEO, Apps Script integration for quick data gathering.</li>
+                <li>Took ownership of the discover page (recommendation page), stories, user profile, user and KYB in Front end.</li>
+                <li>Worked on <a href="https://crypso.club" target="_blank" rel="noreferrer">Crypso.club</a> landing page for the application.</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div>Software Developer (Intern + Full Time)</div>
+                <div>Technodds LLP</div>
+              </div>
+              <div>
+                <div>Dec 2020 - Sept 2021</div>
+                <div>Aurangabad, MH</div>
+              </div>
+            </div>
+            <div>
+              <ul>
+                <li>Worked on a GoQue, a Queue management app with Kotlin + MVVM on frontend and Node JS on backend.</li>
+                <li>Third party integrations, payment gateways, and sockets for events.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
