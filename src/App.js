@@ -6,22 +6,22 @@ import { GithubIcon, LinkedinIcon, SankalpPol1Image } from "./constants/icons";
 function App() {
   return (
     <div>
-      <div className="">
-        <div>
-          <div className="tw-text-center tw-bg-[#18181B] tw-text-white tw-grid tw-grid-cols-1 lg:tw-grid-cols-2">
-            <div className="tw-flex tw-items-center tw-justify-center tw-h-[100vh]">
-              <div className="tw-text-left tw-px-10">
+      <div className="tw-w-full tw-relative">
+        <div className="tw-w-full tw-relative tw-bg-black">
+          <div className="tw-w-full tw-text-center tw-bg-[#18181B] tw-text-white tw-grid tw-grid-cols-1 lg:tw-grid-cols-2">
+            <div className="tw-w-full tw-flex tw-items-center tw-justify-center tw-h-[100vh]">
+              <div className="tw-w-full tw-max-w-[480px] tw-text-left tw-px-10">
                 <p className="tw-text-[36px] tw-leading-none">I am</p>
                 <p className="tw-text-[48px]">Sankalp Pol</p>
-                <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-2 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faPhone}/> <span className="tw-pl-4">+91 996-726-8418</span></div>
-                <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-4 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faEnvelope}/> <span className="tw-pl-4">sankalppolk123@gmail.com</span></div>
+                <div className="tw-bg-[#1F2937] tw-w-full tw-max-w-[480px] tw-my-2 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faPhone}/> <span className="tw-pl-4">+91 996-726-8418</span></div>
+                <div className="tw-bg-[#1F2937] tw-w-full tw-max-w-[480px] tw-my-4 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faEnvelope}/> <span className="tw-pl-4">sankalppolk123@gmail.com</span></div>
                 <div className="tw-flex tw-gap-2 tw-mt-3">
                   <a href="https://linkedin.com/in/SankalpSTG" target="_blank" rel="noreferrer"><img src={LinkedinIcon} alt="Linkedin" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/></a>
                   <a href="https://github.com/SankalpSTG" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/></a>
                 </div>
               </div>
             </div>
-            <div className="tw-flex tw-items-center tw-justify-center"><img src={SankalpPol1Image} className="tw-rounded-full tw-w-[360px] tw-relative" style={{boxShadow: "0px 0px 3px #000000"}} alt="Sankalp Pol"/></div>
+            <div className="tw-flex tw-items-center tw-justify-center tw-p-5"><img src={SankalpPol1Image} className="tw-rounded-full tw-w-full tw-max-w-[360px] tw-relative" style={{boxShadow: "0px 0px 3px #000000"}} alt="Sankalp Pol"/></div>
           </div>
         </div>
         <div className="tw-hidden">
