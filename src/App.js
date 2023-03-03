@@ -16,8 +16,8 @@ function App() {
                 <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-2 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faPhone}/> <span className="tw-pl-4">+91 996-726-8418</span></div>
                 <div className="tw-bg-[#1F2937] tw-w-[480px] tw-max-w-full tw-my-4 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faEnvelope}/> <span className="tw-pl-4">sankalppolk123@gmail.com</span></div>
                 <div className="tw-flex tw-gap-2 tw-mt-3">
-                  <img src={LinkedinIcon} alt="Linkedin" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/>
-                  <img src={GithubIcon} alt="Github" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/>
+                  <a href="https://linkedin.com/in/SankalpSTG" target="_blank" rel="noreferrer"><img src={LinkedinIcon} alt="Linkedin" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/></a>
+                  <a href="https://github.com/SankalpSTG" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="tw-w-[36px] tw-h-[36px] tw-rounded-lg tw-inline-block"/></a>
                 </div>
               </div>
             </div>
