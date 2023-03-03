@@ -186,13 +186,13 @@ function App() {
                 <div className="tw-text-lg"><b>MIT Aurangabad</b></div>
                 <div className="tw-text-base"><em>Bachelors in Computer Science &amp; Engg.</em></div>
                 <div>
-                  <ui style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
                     <li>Worked on weirdest projects across disciplines, from creating robots to creating software interfaces for people. </li>
                     <li>Filed 2 patents, one of which was a Robotic Fish for underwater surveillance. </li>
                     <li>Smart India Hackathon Finalist. </li>
                     <li>Learnt App and Web Development along with Embedded Systems</li>
                     <li>Worked on IOT Based projects</li>
-                  </ui>
+                  </ul>
                 </div>
               </div>
               <div className="tw-my-5">
