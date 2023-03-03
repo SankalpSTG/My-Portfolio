@@ -13,7 +13,7 @@ function App() {
               <div className="tw-w-full tw-max-w-[480px] tw-text-left tw-px-10">
                 <p className="tw-text-[36px] tw-leading-none">I am</p>
                 <p className="tw-text-[48px] tw-leading-lg">Sankalp Pol</p>
-                <p className="tw-text-[20px] tw-leading-none">(Full Stack Developer)</p>
+                <p className="tw-text-[20px] tw-leading-[24px]">(Full Stack Developer)</p>
                 <div className="tw-bg-[#1F2937] tw-w-full tw-max-w-[480px] tw-my-2 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faPhone}/> <span className="tw-pl-4">+91 996-726-8418</span></div>
                 <div className="tw-bg-[#1F2937] tw-w-full tw-max-w-[480px] tw-my-4 tw-p-2 tw-rounded"><FontAwesomeIcon icon={faEnvelope}/> <span className="tw-pl-4">sankalppolk123@gmail.com</span></div>
                 <div className="tw-flex tw-gap-2 tw-mt-3">
