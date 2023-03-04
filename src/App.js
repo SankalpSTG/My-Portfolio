@@ -29,7 +29,7 @@ function App() {
           <div className="tw-text-center tw-text-white">
             <div className="tw-text-[24px]"><b>ABOUT ME</b></div>
             <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">
-              Software Developer with about 2 years of experience in MERN Stack, Golang and Android Development (Kotlin). Familiar with GCP services, Git, CI/CD, Docker, NGINX etc. Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
+              Software Developer with about 2 years of experience in MERN Stack and Golang. Familiar with GCP services, Git, CI/CD, Docker, NGINX etc. Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
               Currently interested in Full Stack Development roles. 
             </div>
           </div>
