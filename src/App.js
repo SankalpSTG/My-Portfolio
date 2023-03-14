@@ -85,7 +85,7 @@ function App() {
                 <div className="tw-text-[24px]"><b>Relevel By Unacademy</b></div>
               </div>
               <div>
-                <div>Dec 2021 - Dec 2022</div>
+                <div>Dec 2020 - Dec 2021</div>
                 <div>Remote, IN</div>
               </div>
             </div>
