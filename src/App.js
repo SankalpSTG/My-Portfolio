@@ -29,8 +29,7 @@ function App() {
           <div className="tw-text-center tw-text-white">
             <div className="tw-text-[24px]"><b>ABOUT ME</b></div>
             <div className="tw-text-[20px] tw-w-full tw-max-w-[576px]">
-              Software Developer with about 2 years of experience in MERN Stack and Golang. Familiar with GCP services, Git, CI/CD, Docker, NGINX etc. Jack of all trades. Can demonstrate the use of design patterns in code.<br/>
-              Currently interested in Full Stack Development roles. 
+              Software Developer with about 2+ years of experience in MERN Stack, Next JS and Golang. Familiar with GCP services, essentials of AWS, Git, CI/CD, Docker, NGINX etc.<br/>
             </div>
           </div>
         </div>
@@ -40,10 +39,32 @@ function App() {
             <div className="tw-flex tw-justify-between tw-my-5">
               <div>
                 <div className="tw-text-base"><i>Software Developer</i></div>
-                <div className="tw-text-[24px]"><b>Zamp</b></div>
+                <div className="tw-text-[24px]"><b>Youshd India Pvt. Ltd.</b></div>
               </div>
               <div>
-                <div className="">July 22 - Present</div>
+                <div className="">Mar 23 - Present</div>
+                <div className="">Mumbai, MH</div>
+              </div>
+            </div>
+            <div>
+              <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                <li>Built internal admin and analytics platform from scratch primarily in Next JS.</li>
+                <li>Worked close to the founders understanding their needs to user analytics.</li>
+                <li>Created System Status Dashboard to check error logs and show / notify running statuses of all async processes, applications and third party services for all platforms.</li>
+                <li>Played around with complex aggregation in MongoDB, wrote ETLs for extracting data / analytics events from BigQuery, Mixpanel and few other sources.</li>
+                <li>Created user funnel visualization, aggregating users coming from campaigns and other sources, putting them into stages of the funnel, enabling the community heads to focus on the users and push them into further stages.</li>
+                <li>Created BASE Metrics for Merchant Onboarding over Youshd Platform. Created User Journey Metrics similar to User Funnel while giving a broader view to highlight the most performing campaigns / sources.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="tw-text-[20px] tw-w-full tw-max-w-[840px] tw-mx-auto tw-my-20 tw-text-left">
+            <div className="tw-flex tw-justify-between tw-my-5">
+              <div>
+                <div className="tw-text-base"><i>Software Developer</i></div>
+                <div className="tw-text-[24px]"><b>Zamp (Varni Labs Pvt. Ltd.)</b></div>
+              </div>
+              <div>
+                <div className="">July 22 - Feb 23</div>
                 <div className="">Gurgaon, HR</div>
               </div>
             </div>
@@ -154,6 +175,17 @@ function App() {
               </div>
             </div>
             <div>
+              <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
+                <div className="tw-text-lg">Quick 3D<a href="https://quick3d.in" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
+                <div>
+                  <ul style={{listStyleType: "disc", listStylePosition: "inside"}}>
+                    <li>An online service for a 3D Printing Company where customers can upload their 3D Model and get an approx cost estimation as well as E-Commerce platform for 3D printed models</li>
+                    <li>Employs Three JS for rendering 3D Models</li>
+                    <li>Built using Node / Next JS</li>
+                    <li>Few features include Email notification service, payment gateway, shipping platforms</li>
+                  </ul>
+                </div>
+              </div>
               <div className="tw-border-2 tw-border-[#1E293B] tw-rounded-lg tw-mx-auto tw-max-w-[480px] tw-w-full tw-p-4 tw-text-left tw-my-5">
                 <div className="tw-text-lg">Sirius (Zamp) <a href="https://dashboard.zamp.finance/" rel="noreferrer" target="_blank" style={{textDecoration: "none"}}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></div>
                 <div>
